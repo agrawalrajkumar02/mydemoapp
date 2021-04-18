@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            System.Diagnostics.Trace.TraceInformation("rajkumar first log");
+            System.Diagnostics.Trace.TraceError("rajkumar first log");
             return View();
         }
 
